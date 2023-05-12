@@ -21,6 +21,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>A602D085-26F2-446A-869D-AE9410967CBB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5A8FAB6D-5A79-4B33-A9D1-CE798422503D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Roy Rothenberg</string>
@@ -74,6 +87,48 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>roulette</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Open Roulette feature</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>A602D085-26F2-446A-869D-AE9410967CBB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://experiments.instacart.tools/roulette/{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>5A8FAB6D-5A79-4B33-A9D1-CE798422503D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -84,7 +139,21 @@
 			<key>xpos</key>
 			<real>235</real>
 			<key>ypos</key>
-			<real>75</real>
+			<real>80</real>
+		</dict>
+		<key>5A8FAB6D-5A79-4B33-A9D1-CE798422503D</key>
+		<dict>
+			<key>xpos</key>
+			<real>485</real>
+			<key>ypos</key>
+			<real>290</real>
+		</dict>
+		<key>A602D085-26F2-446A-869D-AE9410967CBB</key>
+		<dict>
+			<key>xpos</key>
+			<real>245</real>
+			<key>ypos</key>
+			<real>290</real>
 		</dict>
 		<key>EDA85611-DED1-4A2E-B7D3-351D4C42CAAE</key>
 		<dict>
